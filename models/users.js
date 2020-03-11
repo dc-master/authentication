@@ -3,6 +3,7 @@ const joi = require('joi')
 const bcrypt = require('bcrypt');
 const _ = require('lodash');
 
+
 const UserSchema = new mongoose.Schema({
     firstName: {
         type: String,
