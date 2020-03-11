@@ -1,0 +1,19 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dc-master/authentication.git"
+  },
+  "author": "Amir Gorji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dc-master/authentication/issues"
+  },
+  "homepage": "https://github.com/dc-master/authentication#readme"
+}
