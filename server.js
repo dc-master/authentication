@@ -23,4 +23,14 @@ app.post('/user/new', async(req, res) => {
     }
 });
 
+app.post('/login', async(req, res) => {
+    try {
+        const body = _.pick(req.body, ['username', 'password']);
+        let user = await User.userLogin(body.username, body.password);
+        res.send({ status: 'success' });
+    } catch (error) {
+        res.status(400).send({ error });
+    }
+});
+
 app.listen(3000, () => console.log('Listening on port 3000...'))
